@@ -17,7 +17,7 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 Клонируйте репозиторий и установите зависимости:
 ```bash
-git clone https://github.com/USERNAME/lab_01.git
+git clone https://github.com/Dmitriika/Laba-1.git
 cd lab_01
 uv sync
 ```
