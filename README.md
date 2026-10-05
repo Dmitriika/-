@@ -18,6 +18,7 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 Клонируйте репозиторий и установите зависимости:
 ```bash
 git clone https://github.com/Dmitriika/Laba-1.git
+cd Laba-1
 cd Laba_01
 uv sync
 python -m pip install .
