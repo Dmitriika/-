@@ -1,15 +1,14 @@
+from typing import Annotated
+
 import typer
-from typing import Annotated, List
 
 from toolkit.calculator import calculate
 from toolkit.converter import convert
-
 
 app = typer.Typer(
     name='toolkit',
     help='Консольный набор утилит: калькулятор и конвертер величин.',
     no_args_is_help=True,
-    add_completion=False,
 )
 
 
@@ -22,7 +21,7 @@ app = typer.Typer(
 def calc(
     ctx: typer.Context,
     expression: Annotated[
-        List[str],
+        list[str],
         typer.Argument(help='Арифметическое выражение.'),
     ],
 ) -> None:
