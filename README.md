@@ -10,13 +10,21 @@ CLI-приложение на Python с калькулятором выраже�
 
 Все команды выполняются в **PowerShell**.
 
-```powershell
+```bash
 # Перейти в домашнюю папку
 cd ~
-
+```
+```bash
 # Клонировать репозиторий
 git clone https://github.com/Dmitriika/Laba-1.git
+```
+```bash
+#Перейти в сам репозиторий
 cd Laba-1
+```
+```bash
+#Установка пакета
+python -m pip install -e .
 ```
 
 ## Команды
