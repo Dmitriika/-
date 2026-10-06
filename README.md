@@ -4,29 +4,21 @@ CLI-приложение на Python с калькулятором выраже�
 ## Установка 
 Требуется Python 3.10+.
 
-### Через uv 
+## Установка
 
-Если `uv` не установлен:
+Требуется Python 3.10+.
 
-```bash
-# Linux / macOS
-curl -LsSf https://astral.sh/uv/install.sh | sh
+Все команды выполняются в **PowerShell**.
 
-# Windows (PowerShell)
-powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
-Клонируйте репозиторий и установите зависимости:
-```bash
+```powershell
+# Перейти в домашнюю папку
+cd ~
+
+# Клонировать репозиторий
 git clone https://github.com/Dmitriika/Laba-1.git
 cd Laba-1
-cd Laba_01
-uv sync
-python -m pip install .
 ```
-После этого CLI доступен:
-```bash
-python -m toolkit --help
-```
+
 ## Команды
 Справка CLI интерфейса
 ``` bash
