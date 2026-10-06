@@ -1,0 +1,27 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python кеш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Сборка пакета
+build/
+dist/
+*.egg-info/
+
+# Инструменты
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# ОС
+.DS_Store
+Thumbs.db
