@@ -8,7 +8,7 @@ from toolkit.converter import convert
 app = typer.Typer(
     name='toolkit',
     help='Консольный набор утилит: калькулятор и конвертер величин.',
-    no_args_is_help=True,
+    no_args_is_help=True
 )
 
 
@@ -19,7 +19,6 @@ app = typer.Typer(
     },
 )
 def calc(
-    ctx: typer.Context,
     expression: Annotated[
         list[str],
         typer.Argument(help='Арифметическое выражение.'),
@@ -38,7 +37,6 @@ def calc(
     },
 )
 def convert_cmd(
-    ctx: typer.Context,
     value: float = typer.Argument(..., help='Числовое значение.'),
     unit_from: str = typer.Option(
         ...,
