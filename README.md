@@ -34,7 +34,7 @@ python -m pip install -e .
 python -m toolkit --help
 ```
 Калькулятор. Считает выражение внутри "EXPRESSION".
-Поддерживаются операторы +, -, *, /, скобки и унарные +, -.
+Поддерживаются операторы +, -, *, /, и унарные +, -.
 ``` bash
 python -m toolkit calc "EXPRESSION"
 ```
